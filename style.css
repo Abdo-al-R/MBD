@@ -291,6 +291,16 @@
      --card-height: 400px;
   }
 }
+@media (min-width: 320px) and (max-width: 480px){
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+  .app__bg {
+    width: 160vw;
+    height: 160vh;
+  }
+}
  .support {
    position: absolute;
    right: 10px;
